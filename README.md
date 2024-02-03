@@ -1,5 +1,5 @@
 # Malfunction Checker
-The program detects and signals hydraulic malfunctions in a heating system by keeping track of time passed since last activation. 
+![alt text](https://github.com/KalleLahtinen/materials/blob/main/malfuntion_checker.jpg?raw=true)
 
 An inner timer counts powers a pin if the timer elapses. The timer's start value is calculated as milliseconds = (-slope * potentiometer_value + mustajarvi_variable) * 3600, where potentiometer_value is read from a connected potentiometer and slope/mustajarvi_variable are adjustable using the Arduino board and saved in EEPROM memory. The variables are used to fine-tune how the potentiometer value corresponds to timer length.
 
